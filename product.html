@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Product</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?ver=4.2">
+</head>
+<body>
+    <header class="header center">
+        <div class="header__container">
+            <div class="header__left">
+                <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span>D</span></a>
+                <form class="header__form" action="#">
+                    <div class="header__browse">Browse&nbsp;&nbsp;&#9662;
+                        <div class="triangle"></div>
+                        <ul id="submenu__items" class="submenu__items">
+                            <li class="category__header">WOMEN</li>
+                            <li><a href="product.html">Dresses</a></li>
+                            <li><a href="product.html">Tops</a></li>
+                            <li><a href="product.html">Sweaters/Knits</a></li>
+                            <li><a href="product.html">Jackets/Coats</a></li>
+                            <li><a href="product.html">Blazers</a></li>
+                            <li><a href="product.html">Denim</a></li>
+                            <li><a href="product.html">Leggins/Pants</a></li>
+                            <li><a href="product.html">Skirts/Shorts</a></li>
+                            <li><a href="product.html">Accessories</a></li>
+                            <li class="category__header">MEN</li>
+                            <li><a href="product.html">Tees/Tank tops</a></li>
+                            <li><a href="product.html">Shirts/Polos</a></li>
+                            <li><a href="product.html">Sweaters</a></li>
+                            <li><a href="product.html">Sweatshirts/Hoodies</a></li>
+                            <li><a href="product.html">Blazers</a></li>
+                            <li><a href="product.html">Jackets/vests</a></li>
+                        </ul>
+                    </div>
+                    <label for="site__search"></label>
+                    <input type="text" placeholder="Search for Item..." id="site__search">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header__right">
+                <div class="cart__container">
+                    <img class="header__cart" src="img/cart.png" alt="cart">
+                    <div class="live__cart">5</div>
+                    <div id="triangle" class="triangle"></div>
+                    <div class="submenu__cart">
+                        <ul class="list__of__goods">
+                            <li>
+                                <a href="product.html"><img class="product__photo" src="img/cart_product1_mini.png" alt="cloth"></a>
+                                <div class="product__detials">
+                                    <div class="name"><a href="product.html">REBOX ZANE</a></div>
+                                    <div class="rating">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star-half-alt"></span>
+                                    </div>
+                                    <div class="acp_container">
+                                        <div class="amount">1</div>
+                                        <span class="count">x</span>
+                                        <div class="price">$250</div>
+                                    </div>
+                                </div>
+                                <div class="cart__delete fas fa-times-circle"></div>
+                            </li>
+                            <li>
+                                <div class="product__photo">
+                                    <a href="product.html"><img src="img/cart_product2_mini.png" alt="cloth"></a>
+                                </div>
+                                <div class="product__detials">
+                                    <div class="name"><a href="product.html">REBOX ZANE</a></div>
+                                    <div class="rating">
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star"></span>
+                                        <span class="fas fa-star-half-alt"></span>
+                                    </div>
+                                    <div class="acp_container">
+                                        <div class="amount">1</div>
+                                        <span class="count">x</span>
+                                        <div class="price">$250</div>
+                                    </div>
+                                </div>
+                                <div class="cart__delete fas fa-times-circle"></div>
+                            </li>
+                        </ul>
+                        <div class="total">
+                            <span class="header__total">TOTAL</span>
+                            <span class="summ">$500.00</span>
+                        </div>
+                        <a href="checkout.html"><div class="checkout">CHECKOUT</div></a>
+                        <a href="cart.html"><div class="go__to__cart">GO TO CART</div></a>
+                    </div>
+                </div>
+                <div class="button__container">
+                    <a class="button" href="#">My Account<span class="fas fa-caret-down"></span></a>
+                    <ul class="submenu__myAccount">
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="nav center">
+        <ul class="menu">
+            <li class="menu__list"><a href="index.html" class="menu__link">Home </a></li>
+            <li class="menu__list">
+                <a href="arrivals.html" class="menu__link">Man </a>
+            </li>
+            <li class="menu__list">
+                <a href="#" class="menu__link">Women </a>
+                <div class="mega__menu">
+                    <ul>
+                        <li class="list__header">WOMEN</li>
+                        <li><a href="product.html">Dresses</a></li>
+                        <li><a href="product.html">Tops</a></li>
+                        <li><a href="product.html">Sweaters/Knits</a></li>
+                        <li><a href="product.html">Jackets/Coats</a></li>
+                        <li><a href="product.html">Blazers</a></li>
+                        <li><a href="product.html">Denim</a></li>
+                        <li><a href="product.html">Leggins/Pants</a></li>
+                        <li><a href="product.html">Skirts/Shorts</a></li>
+                        <li><a href="product.html">Accessories</a></li>
+                    </ul>
+                    <ul>
+                        <li class="list__header">WOMEN</li>
+                        <li><a href="product.html">Dresses</a></li>
+                        <li><a href="product.html">Tops</a></li>
+                        <li><a href="product.html">Sweaters/Knits</a></li>
+                        <li><a href="product.html">Jackets/Coats</a></li>
+                        <li class="list__header">WOMEN</li>
+                        <li><a href="product.html">Dresses</a></li>
+                        <li><a href="product.html">Tops</a></li>
+                        <li><a href="product.html">Sweaters/Knits</a></li>
+                    </ul>
+                    <div class="promo__ad__container">
+                        <ul>
+                            <li class="list__header">WOMEN</li>
+                            <li><a href="product.html">Dresses</a></li>
+                            <li><a href="product.html">Tops</a></li>
+                            <li><a href="product.html">Sweaters/Knits</a></li>
+                            <li><a href="product.html">Jackets/Coats</a></li>
+                        </ul>
+                        <a href="product.html" class="promo__ad">
+                            <img src="img/menu_banner.png" alt="cloth">
+                            <div class="ad__text">SUPER<br>SALE!</div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="menu__list"><a href="arrivals.html" class="menu__link">Kids </a></li>
+            <li class="menu__list"><a href="arrivals.html" class="menu__link">Accessories </a></li>
+            <li class="menu__list"><a href="arrivals.html" class="menu__link">Featured </a></li>
+            <li class="menu__list"><a href="arrivals.html" class="menu__link">Hot Deals</a></li>
+        </ul>
+    </nav>
+    <section class="breadcrumb center">
+        <div class="breadcrumb__container">
+            <h1 class="breadcrumb__header">NEW ARRIVALS</h1>
+            <div class="path">
+                <a href="index.html">HOME</a> /
+                <a href="#">MEN</a> /
+                <a href="arrivals.html">NEW ARRIVALS</a>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="product-gallery product-gallery_padding-top">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item product__carousel-item active">
+                        <img src="img/single_product_img.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item product__carousel-item">
+                        <img src="img/single_product_img_2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item product__carousel-item">
+                        <img src="img/single_product_img_3.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev product__carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="fas fa-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next product__carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="fas fa-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="product-info center">
+            <div class="product-info__content product-info__content_padding">
+                <div class="collection collection_padding">
+                    <p>WOMEN COLLECTION</p>
+                    <span><span></span></span>
+                </div>
+                <p class="item-name item-name_padding">Moschino Cheap And Chic</p>
+                <p class="item-description item-description_padding">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+                <div class="item-spec item-spec_padding">
+                    <p>MATERIAL: <span>COTTON</span></p><p>DESIGNER: <span>BINBURHAN</span></p>
+                </div>
+                <p class="item-price">$561</p>
+                <span class="item-dividing-line item-dividing-line_margin"></span>
+                <div class="product__settings">
+                    <form action="#" class="item-form">
+                        <span>
+                            <label for="choose-color">CHOOSE COLOR</label>
+                            <select name="list1" id="choose-color">
+                                <option selected="selected" value="1">Red</option>
+                                <option value="2">Blue</option>
+                                <option value="3">White</option>
+                                <option value="4">Black</option>
+                                <option value="5">Orange</option>
+                            </select>
+                        </span>
+                        <span>
+                            <label for="choose-size">CHOOSE SIZE</label>
+                            <select name="list2" id="choose-size">
+                                <option value="1">XS</option>
+                                <option value="2">S</option>
+                                <option value="3">M</option>
+                                <option value="4">L</option>
+                                <option value="5">XL</option>
+                                <option selected="selected" value="5">XXL</option>
+                            </select>
+                        </span>
+                        <span>
+                            <label for="quantity">QUANTITY</label>
+                            <input type="text" id="quantity" placeholder="2">
+                        </span>
+                        <button><span class="fas fa-shopping-cart"></span>Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="also-like center">
+        <div class="also-like__header">you may like also</div>
+        <div class="also-like__container">
+            <div class="also-like__item">
+                <a href="#"><img class="also-like__img" src="img/also_like_1.png" alt="cloth"></a>
+                <div class="also-like__content">
+                    <a href="product.html" class="also-like__name">Mango People T-shirt</a>
+                    <div class="also-like__price">$52.00</div>
+                </div>
+                <a href="#" class="also-like__add"><span class="fas fa-shopping-cart"></span>Add to Cart</a>
+                <a href="#" class="also-like__retweet fas fa-retweet"></a>
+                <a href="#" class="also-like__favorite far fa-heart"></a>
+            </div>
+            <div class="also-like__item">
+                <a href="#"><img class="also-like__img" src="img/also_like_2.png" alt="cloth"></a>
+                <div class="also-like__content">
+                    <a href="product.html" class="also-like__name">Mango People T-shirt</a>
+                    <div class="also-like__price">$52.00</div>
+                </div>
+                <a href="#" class="also-like__add"><span class="fas fa-shopping-cart"></span>Add to Cart</a>
+                <a href="#" class="also-like__retweet fas fa-retweet"></a>
+                <a href="#" class="also-like__favorite fas fa-heart"></a>
+            </div>
+            <div class="also-like__item">
+                <a href="#"><img class="also-like__img" src="img/also_like_3.png" alt="cloth"></a>
+                <div class="also-like__content">
+                    <a href="product.html" class="also-like__name">Mango People T-shirt</a>
+                    <div class="also-like__price">$52.00</div>
+                </div>
+                <a href="#" class="also-like__add"><span class="fas fa-shopping-cart"></span>Add to Cart</a>
+                <a href="#" class="also-like__retweet fas fa-retweet"></a>
+                <a href="#" class="also-like__favorite fas fa-heart"></a>
+            </div>
+            <div class="also-like__item">
+                <a href="#"><img class="also-like__img" src="img/also_like_4.png" alt="cloth"></a>
+                <div class="also-like__content">
+                    <a href="product.html" class="also-like__name">Mango People T-shirt</a>
+                    <div class="also-like__price">$52.00</div>
+                </div>
+                <a href="#" class="also-like__add"><span class="fas fa-shopping-cart"></span>Add to Cart</a>
+                <a href="#" class="also-like__retweet fas fa-retweet"></a>
+                <a href="#" class="also-like__favorite fas fa-heart"></a>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__content center">
+            <div id="carouselExampleIndicators" class="carousel subscribe_carousel slide" data-ride="carousel">
+                <div class="carousel-inner subscribe__carousel-inner">
+                    <div class="carousel-item subscribe__carousel-item active">
+                        <img src="img/slider_photo_2.png" alt="photo">
+                        <div class="slide__text">
+                            <div class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                            <div class="author__name">Bin Burhan<br><span>Dhaka, Bd</span></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item subscribe__carousel-item">
+                        <img src="img/slider_photo_2.png" alt="photo">
+                        <div class="slide__text">
+                            <div class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                            <div class="author__name">Bin Burhan<br><span>Dhaka, Bd</span></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item subscribe__carousel-item">
+                        <img src="img/slider_photo_2.png" alt="photo">
+                        <div class="slide__text">
+                            <div class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                            <div class="author__name">Bin Burhan<br><span>Dhaka, Bd</span></div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators subscribe__carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="mailing">
+                <div class="mailing__container">
+                    <div class="mailing__header">SUBSCRIBE<br><span>FOR OUR NEWLETTER AND PROMOTION</span></div>
+                    <form class="email__enter" action="#">
+                        <label for="user__email"></label>
+                        <input type="email" placeholder="Enter Your Email" id="user__email" required>
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer center">
+        <div class="footer__container">
+            <div class="brand__information">
+                <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span>D</span></a>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="link__block">
+                <div class="link__block__header">COMPANY</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="link__block">
+                <div class="link__block__header">INFORMATION</div>
+                <ul>
+                    <li><a href="#">Tearms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">How to Buy</a></li>
+                    <li><a href="#">How to Sell</a></li>
+                    <li><a href="#">Promotion</a></li>
+                </ul>
+            </div>
+            <div class="link__block">
+                <div class="link__block__header">SHOP CATEGORY</div>
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Apparel</a></li>
+                    <li><a href="#">Browse All</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer__bottom center">
+        <div class="footer__bottom__container">
+            <div class="all__rights__reserved">© 2017  Brand  All Rights Reserved.</div>
+            <div class="social__media">
+                <a href="https://facebook.com" target="_blank" class="social__links fab fa-facebook-f"></a>
+                <a href="https://twitter.com" target="_blank" class="social__links fab fa-twitter"></a>
+                <a href="https://www.linkedin.cn/uas/login" target="_blank" class="social__links fab fa-linkedin-in"></a>
+                <a href="https://www.pinterest.ru" target="_blank" class="social__links fab fa-pinterest-p"></a>
+                <a href="https://plus.google.com" target="_blank" class="social__links fab fa-google-plus-g"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
